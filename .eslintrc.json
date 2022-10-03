@@ -1,0 +1,10 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 13,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["node_modules", "dist"]
+}
