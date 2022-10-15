@@ -8,7 +8,7 @@ import Bottom from './Bottom';
 function ReactHookForm({ }) {
   const methods = useForm({
     mode: 'onSubmit',
-    reValidateMode: 'onChange',
+    reValidateMode: 'onSubmit',
     defaultValues: {
       firstName: '',
       lastName: '',
